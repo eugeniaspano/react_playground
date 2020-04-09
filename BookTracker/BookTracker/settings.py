@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'book_tracker_app'
+    'book_tracker_app',
+    'rest_framework',
+    'book_tracker_frontend'
 ]
 
 MIDDLEWARE = [
